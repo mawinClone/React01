@@ -1,25 +1,12 @@
-const Title = () => <h1>โปรเเกรมบัญชี รายรับ รายจ่าย</h1>
+import Transaction from "./components/Transaction";
 
-const Description = () => <p>บันทึกข้อมูลเเต่ละวัน</p>
-
-const Item = () => <li>ค่าเดินทาง <span>-200</span></li>
-
-const Transaction = () => {
-  return(
-    <Item />
-  );
-}
-
-
-
-
+const Title = () => <h1>โปรเเกรมบัญชี รายรับ รายจ่าย</h1>;
 
 function App() {
   return (
     <div>
-      <Title/>
-      <Description/>
-      <Transaction/>
+      <Title />
+      <Transaction />
     </div>
   );
 }
