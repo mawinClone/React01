@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+const Title = () => <h1>โปรเเกรมบัญชี รายรับ รายจ่าย</h1>
+
+const Description = () => <p>บันทึกข้อมูลเเต่ละวัน</p>
+
+const Transaction = () => {
+  return(
+<ul>
+        <li>ค่าเดินทาง <span>-200</span></li>
+        <li>เงินเดือน <span>+20000</span></li>
+        <li>ค่าอาหาร <span>-500</span></li>
+      </ul>
+  );
+}
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Title/>
+      <Description/>
+      <Transaction/>
     </div>
   );
 }
