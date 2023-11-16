@@ -8,6 +8,7 @@ const Transaction = () => {
         <li>ค่าเดินทาง <span>-200</span></li>
         <li>เงินเดือน <span>+20000</span></li>
         <li>ค่าอาหาร <span>-500</span></li>
+        <li>ค่าของกินเล่น <span>-100</span></li>
       </ul>
   );
 }
