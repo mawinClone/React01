@@ -13,12 +13,16 @@
     display: flex;
     justify-content: space-between;
 
+    position: relative;
 
+    margin-bottom: 10px;
+    /* padding: 30px 10px 20px 10px; */
+    padding: 30px;
+
+    font-size: 1.3rem;
+    font-weight: bold;
     color: darkcyan;
     background-color: white;
-    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.12);
-    margin-bottom: 10px;
-    padding: 30px;
-    font-size: 1.3rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     
 }

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+
 *{
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
 
@@ -18,7 +21,7 @@ body{
 
 .container{
   border: 1px solid black;
-  /* background-color: aquamarine; */
+  padding: 0px 10px 0px;
   margin: 30px auto;
   width: 350px;
 }
