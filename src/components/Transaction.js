@@ -1,18 +1,16 @@
+// import { v4 as uuidv4 } from "uuid";
 import Item from "./Item";
-import "./Transaction.css";
-import { v4 as uuidv4 } from 'uuid';
 
-const Transaction = () => {
-  const data = [
-    {title: "ค่าเติมเกม", amount: 500 },
-    {title: "ค่ากาชา", amount: 2000 },
-    {title: "ค่าโมเดล", amount: 1700 },
-  ];
+import "./Transaction.css";
+
+const Transaction = (props) => {
+
+  const { items } = props; 
 
   return (
     <ul className="item-list">
-      {data.map((element) => {
-        return <Item {...element} key ={uuidv4()}/>;
+      {items.map((element) => { //วนลูปเพื่อสร้าง item (สามารถใช้ prop.items.map เเทน items ได้)
+        return <Item {...element} key={element.id} />;
       })}
     </ul>
   );
