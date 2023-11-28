@@ -21,6 +21,8 @@ input:focus{
 
 
 .btn{
+    /* background-color: darkcyan; */
+    /* color: antiquewhite; */
     font-weight: bold;
     cursor: pointer;
     display:  block;
