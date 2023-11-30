@@ -26,3 +26,25 @@ body{
   width: 350px;
   
 }
+
+
+.horizontal-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.horizontal-menu li{
+  display: inline-block;
+
+}
+.horizontal-menu a{
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
