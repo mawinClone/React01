@@ -10,8 +10,7 @@ const Transaction = (props) => {
   return (
     <div>
       <ul className="item-list">
-        {items.map((element) => {
-          //วนลูปเพื่อสร้าง item (สามารถใช้ prop.items.map เเทน items ได้)
+        {items.map((element) => { //วนลูปเพื่อสร้าง item (สามารถใช้ prop.items.map เเทน items ได้)
           return <Item {...element} key={element.id} />;
         })}
       </ul>
